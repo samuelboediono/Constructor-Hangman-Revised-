@@ -22,7 +22,7 @@ var Word = function (data) {
 				return true;
 			}
 		}
-
+		console.log(chooseWords);
 		var chosen = false;
 
 		this.guesses.push(chooseWords);
